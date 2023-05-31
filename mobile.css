@@ -1,0 +1,29 @@
+/* mobile breakpoint */
+
+@media (min-width: 280px) and (max-width: 640px){
+    body{
+        max-width: 100vw;
+    }
+    .container{
+        max-width: 100%;
+    }
+    .btn{
+        display: none;
+    }
+    .container nav ul{
+        display: none;
+        
+    }
+    .container video{
+        max-width: 100vw;
+    }
+    .about .main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .box{
+        display: flex;
+        flex-direction: column;
+    }
+}
